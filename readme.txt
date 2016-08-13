@@ -1,26 +1,4 @@
-OPITTUA:
-
-Opin uusia tapoja käsitellä kuvaa esimerkiksi kontrastia ja sen soveltamista hyväksikäyttäen.
-Algoritmin skaalautuminen mahdollisimman paljon kuvan koon tai niiden määrien mukaan oli jatkuvasti
-asia, jonka kautta pyrin koodaamaan tapauskohtaisen kovakoodauksen sijaan. Jossain määrin opin myös,
-missä määrin käyttäjävirhettä voidaan ehkäistä suunnittelulla. Tärkeimpänä projektissa tuli vastaan
-tilanteita, joihin ei ollut helppoa ja suoraviivaista ratkaisua joko valmiina tai jo tehtyä koodia
-muokkaamalla. Niinpä ongelmanratkontaa täytyi harrastaa paljon ja kehittää jo olemassa olevien
-metodien rinnalle uusia toimintoja, jotka joko avustivat erottamaan ei-halutut tulokset halutuista tai
-paransivat tuloksia poistamalla hajontaa, mutta kuitenkin siten että alkuperäisestä kuvasta saatiin
-yhä lopputulokset laskettua.  
-
-ONGELMIA:
-Ihmeellisten haamubugien (ratios muuttuja muuttaa arvojaan kesken loopin) lisäksi mitään kovin suuria
-ongelmia ei ollut. Enimmät liittyvät lopulta template matchingiin, jonka kanssa täytyy olla tarkka
-siitä millaisen templaten laittaa. Ensinnäkin template kuvan koolla on väliä, joten sen kanssa olisi
-hyvä lopulta käyttää myöskin skaalausta. Toisekseen rarkaisevaa on, mitä template kuvassa on. Liian
-paljon vaikeuttaa tulosten laskentaa, mutta liian niukasti informaatiota johtaa myös helposti täysin
-päättömiin mukaparhaisiin tuloksiin. Niinpä sitä täytyy avustaa esimerkiksi rajoittamalla mille
-alueelle kuvassa sitä käytetään ja antamalla template kuvaan jotain selkeitä ja voimakkaita piirteitä,
-sillä pelkät varjostukset eivät siinä lopulta paljoa paina.
-
-MITEN TOIMII:
+﻿MITEN TOIMII:
 
 Classifier_teach.py:
 
