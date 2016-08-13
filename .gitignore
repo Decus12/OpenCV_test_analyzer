@@ -1,0 +1,26 @@
+typings/
+uploads/
+plugins/
+hooks/
+platforms/
+po/*.mo
+www/js/config.js
+.settings
+.idea
+Cordova-sqlite-storage
+*.log
+www/css
+www/lib/
+engine/
+.DS_Store
+node_modules/
+.vscode/
+scipy/
+numpy/
+cython/
+test_images/
+cv2 on mac
+res_results/
+res.png
+tests/
+teaching_imgs/
